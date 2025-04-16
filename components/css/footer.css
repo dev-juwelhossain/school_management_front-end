@@ -1,0 +1,54 @@
+/* -- Fonts Link -- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+/* -- root variables -- */
+
+:root {
+    /* -- colors -- */
+    --white: #ffffff;
+    --off-white: #F4F7ED;
+    --black: #000000;
+    --lite-mint: #86EE60;
+    --deep-green: #2E6E65;
+    --deep-navy: #2B3752;
+    /* -- fonts -- */
+    --header-font: 'Playfair', serif;
+    --body-font: 'Lato', sans-serif;
+}
+
+/* -- universal css -- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--body-font);
+}
+
+/* -- html tags default css remove -- */
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+/* -- website app text selection cursor style -- */
+
+::selection {
+    color: var(--white);
+    background-color: var(--deep-navy);
+}
+
+/* -------------------------------------------------- */
+
+/* -- footer css -- */
+
+footer > .footer-container {
+    background-color: var(--deep-navy);
+}
+
+footer > .footer-container > .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 250px;
+}   
