@@ -45,10 +45,37 @@ a {
 
 footer > .footer-container {
     background-color: var(--deep-navy);
+    padding: 10px 0px;
 }
 
 footer > .footer-container > .footer-columns {
     display: flex;
     justify-content: space-between;
     padding: 50px 250px;
-}   
+}
+
+/* -- copyright css -- */
+
+footer > .footer-container > p {
+    text-align: center;
+    padding: 10px 0;
+    color: var(--white);
+    background-color: var(--deep-navy);
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+footer > .footer-container > p > q > a {
+    color: var(--lite-mint);
+    text-decoration: none;;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    /* hover */
+    &:hover {
+        text-decoration: underline;
+    }
+}
